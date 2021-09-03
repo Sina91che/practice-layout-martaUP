@@ -1,0 +1,303 @@
+@media (max-width: 1620px) {
+    .advantages {
+        background-image: none;
+    }
+}
+
+@media (max-width: 1220px) {
+    .special {
+        background-size: 6%;
+    }
+
+    @media (max-width: 1190px) {
+        .header {
+            min-height: 730px;
+        }
+
+        .heder-slider {
+            padding-top: 30px;
+        }
+
+        .header-slider-item-img {
+            margin: 15px 20px 0 0;
+        }
+
+        .header-slider-item-info {
+            min-width: 405px;
+        }
+
+        .header-slider-item-img img {
+            max-width: 450px;
+        }
+
+        .header-slider-item-info {
+            padding: 50px 0;
+        }
+    }
+    .advantages-box-img img {
+        width: 95%;
+    }
+    .reviews-item{
+        max-width: 32%;
+    }
+}
+    @media (max-width: 924px) {
+        .header-top {
+            flex-wrap: wrap;
+        }
+
+        .header-logo img {
+            top: 10px;
+        }
+
+        .header-btns {
+            display   : block;
+            width     : 100%;
+            text-align: right;
+        }
+
+        .header-btns a+a {
+            margin-left: 30px;
+        }
+
+        .special {
+            min-height      : 550px;
+            background-image: none;
+            padding         : 55px 0 0px
+        }
+
+        .advantages-box-info,
+        .advantages-box-img {
+            padding-top: 20px;
+        }
+
+        .advantages-box-title {
+            padding: 45px 0 20px 45px;
+        }
+    }
+
+    @media (max-width: 900px) {
+        .header {
+            min-height: 650px;
+        }
+
+        .header-slider-item-img {
+            display: none;
+        }
+
+        .header-slider-item-info {
+            padding: 40px 30px 40px 0;
+        }
+
+        .special {
+            min-height: 400px;
+
+        }
+
+        .advantages-box {
+            flex-wrap: wrap;
+        }
+
+        .advantages-box-info {
+            width    : 95%;
+            max-width: initial;
+        }
+
+        .advantages-box--reverse .advantages-box-info {
+            order       : 0;
+            padding-left: 45px;
+        }
+
+        .advantages-box-img {
+            margin: 0 auto;
+        }
+
+        .advantages-box-img img {
+            width: 100%;
+        }
+        .reviews-items{
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .reviews-item{
+            max-width: 45%;
+            margin-bottom: 20px;
+        }
+    }
+
+    @media (max-width: 775px) {
+        .special {
+            min-height: 520px;
+            padding   : 30px 0 40px;
+        }
+
+        .spec-title {
+            margin-bottom: 60px;
+        }
+
+        .spec-items {
+            flex-wrap: wrap;
+        }
+
+        .spec-item {
+            padding      : 0 20px;
+            width        : 50%;
+            margin-bottom: 30px;
+        }
+        .reviews-title{
+            max-width: 80%;
+            text-align: center;
+        }
+        .footer-inner{
+            line-height: 30px;
+            font-size: 12px;
+            padding: initial;
+        }
+    }
+
+    @media (max-width: 570px) {
+        .header {
+            min-height: 500px;
+        }
+
+        .header-nav-btn {
+            height  : 20px;
+            width   : 25px;
+            position: relative;
+        }
+
+        .header-nav-btn span {
+            background-color: #fff;
+            height          : 2px;
+            width           : 100%;
+            top             : 50%;
+            transform       : translateY(-50%);
+            position        : absolute;
+        }
+
+        .header-nav-btn::before,
+        .header-nav-btn::after {
+            content         : '';
+            background-color: #fff;
+            height          : 2px;
+            width           : 100%;
+            position        : absolute;
+        }
+
+        .header-nav-btn::before {
+            top: 0;
+        }
+
+        .header-nav-btn::after {
+            bottom: 0;
+        }
+
+        .header-nav-list {
+            display   : none;
+            position  : absolute;
+            top       : 120px;
+            left      : 0;
+            text-align: center;
+            z-index   : 2;
+        }
+
+        .header-nav li+li {
+            padding-left: initial;
+        }
+
+        .header-nav a {
+            display         : block;
+            padding         : 10px 10px;
+            width           : 100vw;
+            background-color: rgb(44 34 130);
+            opacity         : 1;
+        }
+
+        .header-slider-item-title {
+            font-size  : 43px;
+            line-height: 55px;
+        }
+
+        .header-slider-item-info {
+            padding: 20px 30px 20px 0;
+        }
+
+        .header-slider-item-desc {
+            font-size    : 22px;
+            line-height  : 40px;
+            margin-bottom: 30px;
+        }
+
+        .spec-items {
+            display: block;
+        }
+
+        .spec-item {
+            margin: 0 auto 40px;
+            width : 90%;
+        }
+
+        .advantages-box-title {
+            padding-left: 20px;
+        }
+
+        .advantages-box-text {
+            padding-left: 20px;
+
+        }
+
+        .advantages-box--reverse .advantages-box-info {
+            padding-left: 20px;
+        }
+        .reviews{
+            padding: 20px 0 40px;
+        }
+        .reviews-items{
+            display: block;
+        }
+        .reviews-item{
+            max-width: 99%;
+            margin: 0 auto 20px;
+        }
+    }
+    @media (max-width: 490px){
+        .footer-inner{
+            display: inline;
+            text-align: center;
+        }
+    }
+    @media (max-width: 411px) {
+        .header-slider-item-info {
+            min-width: 300px;
+        }
+
+        .header-slider-item-title {
+            font-size  : 32px;
+            line-height: 36px;
+        }
+
+        .header-slider-item-desc {
+            font-size  : 18px;
+            line-height: 36px;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size  : 32px;
+            line-height: 36px;
+        }
+
+        .spec-title {
+            margin-bottom: 50px;
+        }
+
+        .spec-item {
+            width: 98%;
+        }
+    }
+
+    @media (min-width: 570px) {
+        .header-nav-list {
+            display: flex !important;
+        }
+    }

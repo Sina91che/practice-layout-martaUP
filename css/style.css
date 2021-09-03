@@ -1,0 +1,366 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size  : 15px;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+    color          : inherit;
+}
+
+.container {
+    max-width: 1200px;
+    margin   : 0 auto;
+    padding  : 0 15px;
+}
+
+/* header start */
+.header {
+    background-image   : url(../svg/bg-header.jpg);
+    background-repeat  : no-repeat;
+    background-size    : cover;
+    background-position: top center;
+    min-height         : 793px;
+}
+
+.header-top {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    height         : 100px;
+    font-size      : 15px;
+
+}
+
+.header-top a {
+    font-weight   : 600;
+    text-transform: uppercase;
+    color         : #fff;
+
+}
+
+.header-logo img {
+    position: absolute;
+    top     : 30px;
+}
+
+.header-logo p {
+    font-size     : 20px;
+    padding-left  : 80px;
+    text-transform: none;
+}
+
+.header-nav-list {
+    display: flex;
+}
+
+.header-nav a {
+    opacity   : .5;
+    transition: all linear .2s;
+}
+
+.header-nav li+li {
+    padding-left: 50px;
+}
+
+.header-nav a:hover,
+:focus {
+    opacity: 1;
+    outline: none;
+}
+
+.header-btns a+a {
+    margin-left: 45px;
+}
+
+.sign-up {
+    padding         : 8px 43px;
+    background-color: #fff;
+    border-radius   : 20px;
+    color           : #250F8A !important;
+}
+
+
+.heder-slider {
+    padding-top: 110px;
+}
+
+.header-slider-item-wrapper {
+    display        : flex;
+    justify-content: space-between;
+    overflow       : hidden;
+
+}
+
+.header-slider-item-info {
+    min-width: 506px;
+    color    : #fff;
+
+}
+
+.header-slider-item-title {
+    font-family  : Source Sans Pro;
+    font-style   : normal;
+    font-weight  : bold;
+    font-size    : 45px;
+    line-height  : 60px;
+    margin-bottom: 10px;
+
+}
+
+.header-slider-item-desc {
+    font-weight  : normal;
+    font-size    : 24px;
+    line-height  : 55px;
+    margin-bottom: 60px;
+
+}
+
+.header-slider-item-btn {
+    background-color: #FFCA00;
+    border-radius   : 25px;
+    padding         : 13px 39px;
+    font-weight     : 600;
+    font-size       : 15px;
+    color           : #250F8A;
+    text-transform  : uppercase;
+
+}
+
+.header-slider-item-img {
+    margin: 15px 80px 0 0;
+}
+
+.header-dots button {
+    display         : block;
+    border          : none;
+    background-color: #fff;
+    opacity         : 50%;
+    font-size       : 0;
+    padding         : 0;
+    height          : 7px;
+    width           : 7px;
+    border-radius   : 3.5px;
+    cursor          : pointer;
+    margin          : 10px auto;
+}
+
+.header-dots .slick-active button {
+    width  : 15px;
+    opacity: 1;
+}
+
+.header-dots {
+    position : absolute;
+    right    : 0;
+    top      : 50%;
+    transform: translateY(-50%);
+}
+
+/* header end */
+
+/* special section stert*/
+.special {
+    background-image   : url(../svg/spec-decor.svg);
+    background-repeat  : no-repeat;
+    background-position: left;
+    min-height         : 600px;
+    text-align         : center;
+    padding            : 55px 0 93px;
+}
+
+.spec-title {
+    color        : #202020;
+    margin-bottom: 95px;
+}
+
+.title {
+    font-weight: bold;
+    font-size  : 35px;
+    line-height: 45px;
+}
+
+.spec-items {
+    display        : flex;
+    justify-content: space-between;
+    max-width      : 970px;
+    margin         : 0 auto;
+}
+
+.spec-item {
+    width: 280px;
+
+}
+
+.spec-item-img {
+    min-height: 160px;
+}
+
+.spec-item-title {
+    font-weight  : bold;
+    font-size    : 20px;
+    color        : #202020;
+    margin-bottom: 8px;
+}
+
+.spec-item-text {
+    color      : #272727;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 15px;
+    opacity    : .7;
+}
+
+/* advantages start */
+.advantages {
+    background-image   : url(../svg/spec-right-decor.svg);
+    background-repeat  : no-repeat;
+    background-position: right 50%;
+    background-color   : #F4F9FD;
+}
+
+.advantages-box {
+    padding-bottom : 75px;
+    display        : flex;
+    justify-content: space-between;
+}
+
+.advantages-box--reverse .advantages-box-info {
+    order              : 1;
+    background-image   : url(../svg/adv-title-bg2.svg);
+    background-position: 5px 140px;
+}
+
+.advantages-box--reverse .advantages-box-title {
+    padding-left: 0;
+}
+
+.advantages-box--reverse .advantages-box-text {
+    padding-left: 0;
+}
+
+.advantages-box-info {
+    padding-top        : 60px;
+    max-width          : 450px;
+    background-image   : url(../svg/adv-title-bg1.svg);
+    background-repeat  : no-repeat;
+    background-position: 5px 85px;
+}
+
+.advantages-box-info--bg {
+    background-image   : url(../svg/adv-title-bg3.svg);
+    background-position: 25px 105px;
+}
+
+.advantages-box-title {
+    color  : #202020;
+    padding: 80px 0 20px 45px;
+
+}
+
+.advantages-box-text {
+    padding-left: 45px;
+    color       : #272727;
+}
+
+.advantages-box-text p {
+    margin-bottom: 24px;
+}
+
+.advantages-box-img {
+    padding-top: 60px;
+}
+
+/* advantages end */
+
+/* reviews start */
+.reviews {
+    background-image   : url(../img/rev-bg.jpg);
+    background-repeat  : no-repeat;
+    background-position: top center;
+    background-size    : cover;
+    padding            : 40px 0 80px;
+}
+
+.reviews-title {
+    color    : #fff;
+    max-width: 385px;
+    margin   : 0 auto 45px;
+}
+
+.reviews-items {
+    max-width      : 940px;
+    margin         : 0 auto;
+    display        : flex;
+    justify-content: space-between;
+}
+
+.reviews-item {
+    padding         : 35px 20px;
+    width           : 300px;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius   : 5px;
+    font-weight     : normal;
+    font-size       : 15px;
+    line-height     : 24px;
+    color           : #fff;
+}
+
+.reviews-item-author {
+    position     : relative;
+    margin-bottom: 27px;
+}
+
+.reviews-item-photo {
+    position: absolute;
+    left    : 0;
+    top     : 0;
+}
+
+.reviews-item-photo img {
+    border-radius: 50%;
+
+}
+
+.reviews-item-name {
+    padding-left: 70px;
+}
+
+.reviews-item-post {
+    padding-left: 70px;
+    opacity     : .5;
+}
+
+.reviews-item-text {
+    text-align: center;
+}
+
+.reviews-item-text::before {
+    content    : '“';
+    font-size  : 40px;
+    line-height: 30px;
+    display    : block;
+}
+
+/* reviews end */
+
+/* footer start */
+
+.footer-inner {
+    padding        : 0 40px;
+    display        : flex;
+    justify-content: space-between;
+    line-height    : 60px;
+    color          : #272727;
+}
+
+.footer-links a+a {
+    margin-left: 40px;
+}
+
+/* footer end */
